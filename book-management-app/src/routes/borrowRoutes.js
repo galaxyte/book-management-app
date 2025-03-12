@@ -11,6 +11,6 @@
 
    router.post('/borrow', borrowBooks); 
    router.post('/return', returnBooks); 
-   router.get('/user/:userId', getBorrowedBooks); 
+   router.get('/borrowed/:userId', getBorrowedBooks); 
 
    module.exports = router;
